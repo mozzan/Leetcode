@@ -25,7 +25,7 @@ public class LengthOfLongestSubstring {
 			if (index > 0)
 				set.remove(s.charAt(index - 1));
 			int start = index;
-			if (tmp == -1 || tmp >= length - 2 || tmp == start) {
+			if (tmp == -1 || tmp >= 0 - 2 || tmp == start) {
 				tmp = start;
 				set.clear();
 			}
