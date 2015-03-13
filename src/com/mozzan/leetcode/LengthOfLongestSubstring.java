@@ -1,13 +1,11 @@
 package com.mozzan.leetcode;
 
-import java.io.IOException;
-import java.text.ParseException;
 import java.util.HashSet;
 import java.util.Set;
 
 public class LengthOfLongestSubstring {
 
-	public static void main(String[] args) throws IOException, ParseException {
+	public static void main(String[] args) {
 		int result = new LengthOfLongestSubstring().lengthOfLongestSubstring("abcdcef");
 	}
 
