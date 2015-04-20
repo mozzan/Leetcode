@@ -1,9 +1,24 @@
 package com.mozzan.leetcode;
 
+/**
+ *
+ * Some examples:
+isMatch("aa","a") ¡÷ false
+isMatch("aa","aa") ¡÷ true
+isMatch("aaa","aa") ¡÷ false
+isMatch("aa", "a*") ¡÷ true
+isMatch("aa", ".*") ¡÷ true
+isMatch("ab", ".*") ¡÷ true
+isMatch("aab", "c*d*a*b") ¡÷ true
+isMatch("aab", "c*a*b") ¡÷ true
+isMatch("aaa", "a*a") ¡÷ true
+isMatch("a", ".*..a*") ¡÷ false
+ *
+ */
 public class RegularExpressionMatching {
 
 	public static void main(String[] args) {
-		System.out.println(new RegularExpressionMatching().isMatch("aaa", "ab*a*c*a"));  //"aaa", "a*a"
+		System.out.println(new RegularExpressionMatching().isMatch("aaabbbaaa", "aa*b*b*aaa"));  //"aaa", "a*a"
 	}
 
 	public boolean isMatch(String s, String p) {
